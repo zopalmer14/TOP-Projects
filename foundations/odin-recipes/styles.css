@@ -1,0 +1,42 @@
+
+body {
+    font-family: Garamond;
+    font-size: 14px;
+    margin: 5vh 5vw;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 10%;   
+}
+
+#home-img {
+    width: 25vw;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+}
+
+.link:hover {
+    color: green;
+    transition: 1s;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    column-gap: 10px;
+}
+
+.info-container div {
+    flex: 1 1 0;
+}
+
+.info-container.homepage {
+    padding: 0 25vw;
+}
